@@ -40,7 +40,7 @@ package ro.ciacob.desktop.debug {
 		}
 		
 		/**
-		 * _LINE (for _underlining)
+		 * _ (for _underlining)
 		 * 
 		 */
 		public static function _(chars : int = -1) : void {
@@ -48,7 +48,7 @@ package ro.ciacob.desktop.debug {
 		}
 		
 		/**
-		 * VERTICAL space (empty lines)
+		 * v (VERTICAL space, i.e., empty lines)
 		 * 
 		 */
 		public static function v(lines : int = 1):void {
@@ -64,7 +64,7 @@ package ro.ciacob.desktop.debug {
 		}
 		
 		/**
-		 * Enables any logger activity from this point
+		 * (Re)enables any logger activity from this point
 		 */
 		public static function on():void {
 			var cfg : LoggerConfig = new LoggerConfig (true, DEFAULT_CONFIG_OPTIONS.destination, DEFAULT_CONFIG_OPTIONS.logsDir);
