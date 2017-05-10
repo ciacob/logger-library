@@ -4,9 +4,6 @@
 /*   the intelectual property of:                                   */
 /*   @author Claudius Iacob <claudius.iacob@gmail.com>              */
 /*                                                                  */
-/*   All rights reserved. Obtain written permission from the author */
-/*   before using/reusing/adapting this code in any way.            */
-/*                                                                  */
 /*//////////////////////////////////////////////////////////////////*/
 
 package ro.ciacob.desktop.debug {
